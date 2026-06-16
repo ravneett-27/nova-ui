@@ -10,8 +10,6 @@ NovaUI is a lightweight customizable CSS framework built using Sass. It provides
 * Responsive and modern design
 * Easy customization using variables
 
----
-
 ## Included Components
 
 ### Buttons
@@ -49,8 +47,6 @@ NovaUI is a lightweight customizable CSS framework built using Sass. It provides
 
 * `.rounded`
 
----
-
 ## Installation
 
 Clone the repository:
@@ -58,8 +54,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/ravneett-27/nova-ui.git
 ```
-
----
 
 ## Project Structure
 
@@ -86,8 +80,6 @@ Include the compiled CSS file in your HTML document:
 <link rel="stylesheet" href="css/main.css">
 ```
 
----
-
 ## Sass Compilation
 
 To compile Sass into CSS:
@@ -95,8 +87,6 @@ To compile Sass into CSS:
 ```bash
 sass scss/main.scss css/main.css
 ```
-
----
 
 ## Customization
 
@@ -115,8 +105,6 @@ $text-color: #333;
 $font-family: Arial, sans-serif;
 ```
 
----
-
 ## Demo
 
 Open the demo page using Live Server:
@@ -124,8 +112,6 @@ Open the demo page using Live Server:
 ```plaintext
 demo/index.html
 ```
-
----
 
 ## Technologies Used
 
@@ -136,14 +122,10 @@ demo/index.html
 * GitHub
 * Visual Studio Code
 
----
-
 ## Contributors
 
 * Bimbola Coker
 * Ravneet Kaur
-
----
 
 ## License
 
