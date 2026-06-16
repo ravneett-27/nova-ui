@@ -1,3 +1,8 @@
-@use 'abstracts/variables';
-@use 'base/reset';
-@use 'base/typography';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'buttons';
+@import 'forms';
+@import 'tables';
+@import 'utilities';
