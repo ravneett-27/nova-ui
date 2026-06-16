@@ -2,8 +2,6 @@
 
 NovaUI is a lightweight customizable CSS framework built using Sass. It provides reusable UI components and utility classes for rapid frontend web development.
 
----
-
 ## Features
 
 * Built with Sass and Sass partials
