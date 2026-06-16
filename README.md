@@ -65,28 +65,20 @@ git clone https://github.com/ravneett-27/nova-ui.git
 
 ## Project Structure
 
-```plaintext
-nova-ui/
-│
-├── scss/
-│   ├── abstracts/
-│   ├── base/
-│   ├── _buttons.scss
-│   ├── _forms.scss
-│   ├── _tables.scss
-│   ├── _utilities.scss
-│   └── main.scss
-│
-├── css/
-│   └── main.css
-│
-├── demo/
-│   └── index.html
-│
-└── README.md
-```
+The project is organized into different folders to keep the framework clean and easy to manage.
 
----
+scss/ → contains all Sass files and partials
+abstracts/ → stores variables used across the framework
+base/ → contains base styles like reset and typography
+_buttons.scss → button component styles
+_forms.scss → form and input styles
+_tables.scss → table styles
+_utilities.scss → reusable utility classes
+main.scss → main Sass file importing all partials
+css/main.css → compiled CSS file
+demo/index.html → demo page showing the framework components
+README.md → project documentation and instructions
+
 
 ## Usage
 
