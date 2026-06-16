@@ -6,3 +6,12 @@
 @import 'forms';
 @import 'tables';
 @import 'utilities';
+@use 'abstracts/variables';
+@use 'base/reset';
+@use 'base/typography';
+
+@use 'components/buttons';
+@use 'components/forms';
+@use 'components/tables';
+
+@use 'utilities/utilities';
