@@ -1,37 +1,56 @@
-# Nova UI
+# NovaUI
 
-## Overview
-
-Nova UI is a lightweight CSS framework built using Sass. It provides a modular structure with reusable components, utility classes, and a customizable theme system.
+NovaUI is a lightweight customizable CSS framework built using Sass. It provides reusable UI components and utility classes for rapid frontend web development.
 
 ---
 
 ## Features
 
-- Sass-based architecture
-- Utility classes (spacing, colors, typography)
-- Reusable components (buttons, forms, tables)
-- Customizable variables
-- Compiled CSS included
+* Built with Sass and Sass partials
+* Reusable utility classes
+* Styled HTML elements
+* Responsive and modern design
+* Easy customization using variables
 
 ---
 
-```md id="fix3"
-## Project Structure
+## Included Components
 
+### Buttons
 
-scss/
-├── base/
-├── components/
-├── utilities/
-├── variables.scss
-└── main.scss
+* Primary Button
+* Secondary Button
 
-css/
-└── main.css
+### Forms
 
-demo/
-└── index.html
+* Input fields
+* Textareas
+* Form spacing and styling
+
+### Tables
+
+* Styled table headers
+* Responsive spacing
+* Border styling
+
+### Utility Classes
+
+#### Spacing
+
+* `.mt-1`
+* `.mt-2`
+* `.p-1`
+* `.p-2`
+
+#### Typography
+
+* `.text-center`
+* `.fw-bold`
+
+#### Layout
+
+* `.rounded`
+
 ---
 
 ## Installation
@@ -40,37 +59,102 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/ravneett-27/nova-ui.git
-
-Link CSS in your HTML
-
-<link rel="stylesheet" href="css/main.css">
-
-Usage Examples
-Button
-<button class="btn btn-primary m-2">Primary Button</button>
-Spacing
-<div class="m-2 p-3">Box with spacing</div>
-Typography
-<h1 class="text-bold text-lg">Heading</h1>
-<p class="text-sm">Paragraph text</p>
-Input
-<input class="input m-2" type="text" placeholder="Enter text">
-Customization
-
-Edit variables in scss/variables.scss:
-
-$primary-color: #4f46e5;
-$secondary-color: #6b7280;
-$font-size-base: 16px;
-$border-radius: 6px;
-
-Then compile:
-
-sass scss/main.scss css/main.css
-Build
-
-Watch Sass:
-
-sass --watch scss/main.scss css/main.css
+```
 
 ---
+
+## Project Structure
+
+```plaintext
+nova-ui/
+│
+├── scss/
+│   ├── abstracts/
+│   ├── base/
+│   ├── _buttons.scss
+│   ├── _forms.scss
+│   ├── _tables.scss
+│   ├── _utilities.scss
+│   └── main.scss
+│
+├── css/
+│   └── main.css
+│
+├── demo/
+│   └── index.html
+│
+└── README.md
+```
+
+---
+
+## Usage
+
+Include the compiled CSS file in your HTML document:
+
+```html
+<link rel="stylesheet" href="css/main.css">
+```
+
+---
+
+## Sass Compilation
+
+To compile Sass into CSS:
+
+```bash
+sass scss/main.scss css/main.css
+```
+
+---
+
+## Customization
+
+Modify variables inside:
+
+```plaintext
+scss/abstracts/_variables.scss
+```
+
+Example:
+
+```scss
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$text-color: #333;
+$font-family: Arial, sans-serif;
+```
+
+---
+
+## Demo
+
+Open the demo page using Live Server:
+
+```plaintext
+demo/index.html
+```
+
+---
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* Sass
+* Git
+* GitHub
+* Visual Studio Code
+
+---
+
+## Contributors
+
+* Bimbola Coker
+* Ravneet Kaur
+
+---
+
+## License
+
+This project was created for educational purposes.
